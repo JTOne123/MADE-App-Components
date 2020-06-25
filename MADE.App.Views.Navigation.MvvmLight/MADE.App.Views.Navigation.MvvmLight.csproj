@@ -22,7 +22,15 @@
     <RootNamespace>MADE.App.Views.Navigation</RootNamespace>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageId>MADE.App.Views.Navigation.MvvmLight</PackageId>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DocumentationFile>bin\Release\netstandard1.4\MADE.App.Views.Navigation.MvvmLight.xml</DocumentationFile>
